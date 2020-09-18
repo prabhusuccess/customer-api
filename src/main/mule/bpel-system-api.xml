@@ -256,7 +256,7 @@ output application/json
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="d965f690-7aba-4c69-a41b-e029624d5743" message="completed the flow"/>
+		<logger level="INFO" doc:name="Logger" doc:id="d965f690-7aba-4c69-a41b-e029624d5743" message="completed the phsearch"/>
     </flow>
     <flow name="post:\prsSearchPrescriber:application\json:bpel-system-api-config">
         <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
